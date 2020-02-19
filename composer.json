@@ -17,7 +17,7 @@
         "symfony/dependency-injection": "^4.4|^5.0",
         "symfony/config": "^4.4|^5.0",
         "fagforbundet/symfony-notification-api-mailer": "dev-feature/inital-version",
-        "symfony/framework-bundle": "^5.0"
+        "symfony/framework-bundle": "^4.4|^5.0"
     },
     "autoload": {
         "psr-4": {
