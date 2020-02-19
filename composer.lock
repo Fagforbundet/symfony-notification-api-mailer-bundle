@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "a4a4a367ddabbc88a017fa453b5d9540",
+    "content-hash": "fe02561d0c48d076372be85fe6f4310c",
     "packages": [
         {
             "name": "doctrine/lexer",
@@ -128,12 +128,17 @@
         },
         {
             "name": "fagforbundet/symfony-notification-api-mailer",
-            "version": "dev-feature/inital-version",
+            "version": "1.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/Fagforbundet/symfony-notification-api-mailer.git",
+                "reference": "0ddc3be6072a6aa568929669c0f6392d41059a36"
+            },
             "dist": {
-                "type": "path",
-                "url": "/home/tomroar/projects/fagforbundet/symfony-notification-api-mailer",
-                "reference": "d457f6ddea21c10499916e0342dd1574454a84cb",
-                "shasum": null
+                "type": "zip",
+                "url": "https://api.github.com/repos/Fagforbundet/symfony-notification-api-mailer/zipball/0ddc3be6072a6aa568929669c0f6392d41059a36",
+                "reference": "0ddc3be6072a6aa568929669c0f6392d41059a36",
+                "shasum": ""
             },
             "require": {
                 "php": "^7.2.5",
@@ -146,6 +151,7 @@
                     "Fagforbundet\\NotificationApiMailer\\": ""
                 }
             },
+            "notification-url": "https://packagist.org/downloads/",
             "license": [
                 "MIT"
             ],
@@ -156,9 +162,7 @@
                 }
             ],
             "description": "Symfony Notification API Mailer Bridge",
-            "transport-options": {
-                "symlink": true
-            }
+            "time": "2020-02-19T16:18:33+00:00"
         },
         {
             "name": "psr/cache",
@@ -2004,9 +2008,7 @@
     "packages-dev": [],
     "aliases": [],
     "minimum-stability": "dev",
-    "stability-flags": {
-        "fagforbundet/symfony-notification-api-mailer": 20
-    },
+    "stability-flags": [],
     "prefer-stable": true,
     "prefer-lowest": false,
     "platform": {
