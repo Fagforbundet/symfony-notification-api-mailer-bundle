@@ -1,0 +1,10 @@
+services:
+    Fagforbundet\NotificationApiMailer\Interfaces\AccessTokenFactoryInterface:
+        class: Fagforbundet\NotificationApiMailer\Factory\AccessTokenFactory
+
+    Fagforbundet\NotificationApiMailer\Transport\NotificationApiTransportFactory:
+        parent: 'mailer.transport_factory.abstract'
+        calls:
+            - ['setAccessTokenFactory', ['@?Fagforbundet\NotificationApiMailer\Interfaces\AccessTokenFactoryInterface']]
+        tags:
+            - { name: mailer.transport_factory }
