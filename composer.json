@@ -7,17 +7,21 @@
         {
             "name": "Tom Roar Furunes",
             "email": "tom.roar@halloverden.no"
+        },
+        {
+            "name": "Erich Json Fosse",
+            "email": "erich@halloverden.no"
         }
     ],
     "minimum-stability": "dev",
     "prefer-stable": true,
     "require": {
         "php":"^7.2",
-        "symfony/http-kernel": "^4.4.7|^5.0.7",
-        "symfony/dependency-injection": "^4.4.7|^5.0.7",
-        "symfony/config": "^4.4.7|^5.0.7",
+        "symfony/http-kernel": "^v4.4.13|^v5.1.5",
+        "symfony/dependency-injection": "^v4.4.13|^v5.1.5",
+        "symfony/config": "^v4.4.13|^v5.1.5",
         "fagforbundet/symfony-notification-api-mailer": "^1.0",
-        "symfony/framework-bundle": "^4.4.7|^5.0.7"
+        "symfony/framework-bundle": "^v4.4.13|^v5.1.5"
     },
     "autoload": {
         "psr-4": {
