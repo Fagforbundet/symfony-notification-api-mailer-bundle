@@ -1,0 +1,23 @@
+{
+    "name": "fagforbundet/notification-api-mailer-bundle",
+    "description": "Notification API transport for Symfony Mailer",
+    "type": "symfony-bundle",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Fagforbundet\\NotificationApiMailerBundle\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Tom Roar Furunes",
+            "email": "tom.roar@halloverden.no"
+        }
+    ],
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "require": {
+        "php": ">=8.2",
+        "symfony/framework-bundle": "^6.3"
+    }
+}
