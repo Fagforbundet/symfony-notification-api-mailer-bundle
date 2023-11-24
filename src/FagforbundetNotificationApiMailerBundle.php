@@ -17,7 +17,7 @@ final class FagforbundetNotificationApiMailerBundle extends AbstractBundle {
       ->set($alias . '.transport_factory', NotificationApiTransportFactory::class)
         ->args([
           service('fagforbundet_notification_api_client.client'),
-          service('event_dispatcher'),
+          service('event_dispatcher')->ignoreOnInvalid(),
           service('http_client')->ignoreOnInvalid(),
           service('logger')->ignoreOnInvalid(),
         ])
