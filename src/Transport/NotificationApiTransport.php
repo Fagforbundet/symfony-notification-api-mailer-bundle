@@ -116,7 +116,7 @@ final class NotificationApiTransport extends AbstractTransport {
    * @return EmailAttachment
    */
   private function createEmailAttachment(DataPart $dataPart): EmailAttachment {
-    $attachment = new EmailAttachment($dataPart->getFilename(), $dataPart->getBody());
+    $attachment = new EmailAttachment($dataPart->getFilename(), $dataPart->bodyToString());
 
     if ($dataPart->getDisposition() === 'inline') {
       $attachment = $attachment->asInline();
