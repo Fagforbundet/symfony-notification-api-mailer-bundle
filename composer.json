@@ -18,9 +18,9 @@
     "prefer-stable": true,
     "require": {
         "php": ">=8.2",
-        "symfony/framework-bundle": "^6.3",
-        "symfony/mailer": "^6.3",
-        "symfony/http-client": "^6.3",
-        "fagforbundet/notification-api-client-bundle": "^1.0"
+        "symfony/framework-bundle": "^6.4|^7.2",
+        "symfony/mailer": "^6.4|^7.2",
+        "symfony/http-client": "^6.4|^7.2",
+        "fagforbundet/notification-api-client-bundle": "^1.1"
     }
 }
